@@ -1,15 +1,14 @@
-.containe{
-    dispaly:flex;
-    height:200px;
-    width:1000px;
-    background-color:blue;
-    border:1px solid black;
-flex-wrap:wrap;
-
+.container{
+    display:grid;
+    height:500px;
+    width:1000px
+    background-color:aqua;
+    bordenr:2px solid black;
 
 }
-.item
-height:100px;
-width:100px;
-border:2px
-background-color:blue;
+.tem{
+    height:500px;
+    width:1000px;
+    background-color:teal;
+    border:2px;
+}
