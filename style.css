@@ -1,4 +1,4 @@
-.container{
+/* .container{
     display:grid;
     height:500px;
     width:1000px
@@ -14,4 +14,23 @@
 [}
 .container {
     grid template colu:
+} */
+ /* Base (mobile-first) */
+.container { padding: 16px; font-size: 16px; }
+
+/* Small tablets / large phones */
+@media (min-width: 600px) {
+  .container { padding: 24px; font-size: 17px; }
+}
+
+/* Tablets / small laptops */
+@media (min-width: 900px) {
+  .container { padding: 32px; font-size: 18px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+}
+
+/* Desktop / large screens */
+@media (min-width: 1200px) {
+  .container { max-width: 1200px; margin: 0 auto; font-size: 19px; }
+  .grid { grid-template-columns: 1fr 1fr 1fr; }
 }
